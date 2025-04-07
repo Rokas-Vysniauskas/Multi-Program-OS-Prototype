@@ -26,3 +26,7 @@ else if (input == "run_mode cont")
 {
     Console.WriteLine("Program running mode changed to CONTINUOUS");
 }
+else
+{
+    Console.WriteLine("Unrecognized command entered... Please try again");
+}
